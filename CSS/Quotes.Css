@@ -1,0 +1,25 @@
+#title {
+    width: 300px;
+    height: 60px;
+    background-color: transparent;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    vertical-align: middle;
+}
+.logo {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.EGA {
+  font-family: 'Syncopate', sans-serif;
+    display: inline-block;
+}
+#nav-bar {
+    margin: 10px 0px 20px 0px;
+    height: 50px;
+    text-align: center;
+}
+#nav-bar a {
+    text-decoration: none;
+}
