@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Syncopate" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Codystar" rel="stylesheet">
@@ -41,6 +42,7 @@
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
         </ol>
 
         <!-- Wrapper for slides -->
@@ -49,10 +51,14 @@
                 <img src="images/slider-1.jpg" alt="...">
             </div>
             <div class="item">
-                <img src="images/slider-2.jpg" alt="...">
+                <img src="images/slider-4.jpg" alt="...">
             </div>
             <div class="item">
                 <img src="images/slider-3.jpg" alt="...">
+            </div>
+            
+            <div class= "item"> 
+            <img src= "images/slider-2.jpg" alt="...">
             </div>
         </div>
 
@@ -65,6 +71,8 @@
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
+        
+        
     </div>
 
     <!-- content wrapper starts-->
@@ -75,7 +83,7 @@
                 <p class="sub_sub_container"> The dictionary defenition of ageing is, "a period of human life, measured by years from birth, usually marked by a certain stage or degree of mental or physical development and involving legal responsibility and capacity." Time is an unstoppable force that makes everyone age. Our Job is to slow down this process by 70%.</p>
             </article>
             <h3 class="main_sub_container">How we do it. </h3>
-            <article class="sub_sub_container"> Founatain of youth is a natural, organic, vegan, gluten free, non gmo, bio degradable, pesticide free nutritional super drink made with mangosteen extract. Our bevarge revitalizes your skin, and gives you potency throughout the day.; </article>
+            <article class="sub_sub_container"> Fountain of youth is a natural, organic, vegan, gluten free, non gmo, bio degradable, pesticide free nutritional super drink made with mangosteen extract. Our bevarge revitalizes your skin, and gives you potency throughout the day.; </article>
             <h3 class="main_sub_container">Who are we</h3>
             <article class="sub_sub_container">We are a company by the name of Extended Genetic Adolescence (E.G.A) who believe in helping keep the people of this world younthful and healthy. Imagine if you could run faster, jump higher and even be stronger, well that is what we are here for to help you be the best you. <span>Let us reverse your AGE</span> </article>
         </div>
@@ -117,15 +125,14 @@
                 <div class="col-md-2 col-sm-6 paddingtop-bottom">
                     <h6 class="heading7">GENERAL LINKS</h6>
                     <ul class="footer-ul">
-                        <li><a href="#"> Home</a>
+                        <li><a href="index.html"> Home</a>
                         </li>
-                        <li><a href="#"> Take Our Quiz!</a>
+                        <li><a href="form.html"> Take Our Quiz!</a>
                         </li>
-                        <li><a href="#"> Testimonies</a>
+                        <li><a href="Quotes.html"> Testimonies</a>
                         </li>
-                        <li><a href="#"> Frequently Ask Questions</a>
-                        </li>
-                    </ul>
+                     </ul>    
+                    
                     
                    <!--Facebook-->
                    <a type="button" class="btn-floating btn-small btn-fb"><i class="fa fa-facebook"></i></a>
@@ -144,7 +151,15 @@
             </div>
         </div>
     </div>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('.carousel').carousel({
+        interval: 3000
+    });
 
+    $('.carousel').carousel('cycle');
+});
+</script>  
 </body>
 
 </html>

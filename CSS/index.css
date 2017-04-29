@@ -9,6 +9,23 @@
     margin: auto;
     padding: 0 20px 0 20px;
 }
+#answer {
+    padding: 20px;
+    background: #f1f1f1;
+    font-size: 1.2em;
+    line-height: 1.2;
+    margin-top: 20px;
+}
+.form-wrapper {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 3px solid #3E78B2;
+    line-height: 2;
+}
+.form-wrapper li {
+    margin-bottom: 15px;
+}
 .main-content {
     width: 70%;
     display: inline-block;
@@ -27,19 +44,17 @@
     vertical-align: middle;
 }
 .EGA {
-  font-family: 'Syncopate', sans-serif;
+    font-family: 'Syncopate', sans-serif;
     display: inline-block;
 }
 #nav-bar {
     margin: 10px 0px 20px 0px;
-    height: 50px;
+    height: 60px;
     text-align: center;
 }
 #nav-bar a {
     text-decoration: none;
 }
-
-
 .menu-button {
     display: inline-block;
     padding: 20px;
@@ -121,13 +136,12 @@
     font-size: 23px;
     font-family: 'Comfortaa', cursive;
     margin-left: 20px;
-    margin-bottom:30px;
+    margin-bottom: 30px;
     margin-right: 50px;
 }
-.sub_sub_container span{
-    font-weight:bold;
+.sub_sub_container span {
+    font-weight: bold;
 }
-
 footer {
     background-color: #3E78B2;
     min-height: 350px;

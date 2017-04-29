@@ -3,12 +3,13 @@
 <html lang="en-us">
 
 <head>
-  <title>Automated doctor</title>
-  <link rel="stylesheet" href="../CSS/autodoctor.css">
-  <link rel="stylesheet" href="../CSS/index.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="../JAVASCRIPT/autodoctor.js"></script>
-      <!-- Latest compiled and minified CSS -->
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <title>Automated doctor</title>
+    <link rel="stylesheet" href="../CSS/autodoctor.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../JAVASCRIPT/autodoctor.js"></script>
+    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Optional theme -->
@@ -18,8 +19,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href=../CSS/index.css>
 </head>
+
 <body>
-     <div id="title">
+    <div id="title">
         <img class="logo" src="images/EGA_logo.png" width="50">
         <h3 class="EGA">Home Of E.G.A</h3>
     </div>
@@ -29,93 +31,101 @@
         <a class="menu-button" href="Quotes.html">Testimonials</a>
     </div>
 
-<div class="content-wrapper">
-<h1>The Automated Doctor</h1>
-<ol>
-<li>What is your current age?
-<p><select id="Q1">
-  <option value="child">Child (< 13)</option>
-  <option value="teen">Teen (13 - 18)</option>
-  <option value="youngadult">Young Adult (18 - 30)</option>
-  <option value="adult">Adult (30 - 60)</option>
-  <option value="eldgerly">Elderly (60+ )</option>
-</select></p>
-</li>
-<li>How much do you weigh?
-<p><select id="Q2">
-  <option value="lightest">Less than 120lb</option>
-  <option value="light">120lb - 180lb</option>
-  <option value="heavy">180lb - 270lb</option>
-  <option value="extra">270lb - 500lb</option>
-  <option value="massive">More than 500lb</option>
-</select></p>
-</li>
-<li>How would you evaluate your overall health? Would you say you are:
-<p><select id="Q3">
-  <option value="good">In good physical health</option>
-  <option value="mild">Mildly physically impaired</option>
-  <option value="moderate">Moderately physically impaired</option>
-  <option value="severe">Severely physically impaired</option>
-  <option value="total">Totally physically impaired</option>
-</select></p>
-</li>
-<li>how often do you smoke?
-<p><select id="Q4">
-<option value="dont">I don't smoke</option>
-  <option value="once">Once in a while</option>
-  <option value="every">Every Day </option>
-  <option value="hour">Every hour</option>
-  
-</select></p>
-</li>
-<li>Which excercises do you often do?
-<p>
-    <label>
-        <input type="checkbox" name="excercises" value="walk" />
-        Walk
-    </label>
-        <label>
-        <input type="checkbox" name="excercises" value="lift weights" />
-        Lift weights
-    </label>
-    <label>
-        <input type="checkbox" name="excercises" value="run" />
-        Run
-    </label>
-        <label>
-        <input type="checkbox" name="excercises" value="hike" />
-        Hike
-    </label>
-    <label>
-        <input type="checkbox" name="excercises" value="swim" />
-        Swim
-    </label>
-        <label>
-        <input type="checkbox" name="excercises" value="dance" />
-        Dance 
-    <label>
-        <input type="checkbox" name="excercises" value="other" />
-        Others
-    </label>
-     
-</p>
-</li>
-<li>In a typical day how many snacks or meals do you eat?</li>
-<p><input id="Q6" type="number" min=1 value=1></p>
+    <div class="form-wrapper">
+        <h1>The Automated Doctor</h1>
+        <ol>
+            <li>What is your current age?
+                <p>
+                    <select id="Q1">
+                        <option value="child">Child (
+                            < 13)</option>
+                                <option value="teen">Teen (13 - 18)</option>
+                                <option value="youngadult">Young Adult (18 - 30)</option>
+                                <option value="adult">Adult (30 - 60)</option>
+                                <option value="eldgerly">Elderly (60+ )</option>
+                    </select>
+                </p>
+            </li>
+            <li>How much do you weigh?
+                <p>
+                    <select id="Q2">
+                        <option value="lightest">Less than 120lb</option>
+                        <option value="light">120lb - 180lb</option>
+                        <option value="heavy">180lb - 270lb</option>
+                        <option value="extra">270lb - 500lb</option>
+                        <option value="massive">More than 500lb</option>
+                    </select>
+                </p>
+            </li>
+            <li>How would you evaluate your overall health? Would you say you are:
+                <p>
+                    <select id="Q3">
+                        <option value="good">In good physical health</option>
+                        <option value="mild">Mildly physically impaired</option>
+                        <option value="moderate">Moderately physically impaired</option>
+                        <option value="severe">Severely physically impaired</option>
+                        <option value="total">Totally physically impaired</option>
+                    </select>
+                </p>
+            </li>
+            <li>how often do you smoke?
+                <p>
+                    <select id="Q4">
+                        <option value="dont">I don't smoke</option>
+                        <option value="once">Once in a while</option>
+                        <option value="every">Every Day </option>
+                        <option value="hour">Every hour</option>
 
-<li>In a typical day how many vegetables or fruit do you eat?</li>
-<p><input id="Q7" type="number"></p>
+                    </select>
+                </p>
+            </li>
+            <li>Which excercises do you often do?
+                <p>
+                    <label>
+                        <input type="checkbox" name="excercises" value="walk" /> Walk
+                    </label>
+                    <label>
+                        <input type="checkbox" name="excercises" value="lift weights" /> Lift weights
+                    </label>
+                    <label>
+                        <input type="checkbox" name="excercises" value="run" /> Run
+                    </label>
+                    <label>
+                        <input type="checkbox" name="excercises" value="hike" /> Hike
+                    </label>
+                    <label>
+                        <input type="checkbox" name="excercises" value="swim" /> Swim
+                    </label>
+                    <label>
+                        <input type="checkbox" name="excercises" value="dance" /> Dance
+                        <label>
+                            <input type="checkbox" name="excercises" value="other" /> Others
+                        </label>
 
-<li>How many gallon of water do you daily drink?</li>
-<p><input id="Q8" type="number"></p>
+                </p>
+            </li>
+            <li>In a typical day how many snacks or meals do you eat?</li>
+            <p>
+                <input id="Q6" type="number" min=1 value=1>
+            </p>
 
-</ol>
-<button id="submit" class = "btn btn-success">Submit Answer</button>
+            <li>In a typical day how many vegetables or fruit do you eat?</li>
+            <p>
+                <input id="Q7" type="number">
+            </p>
 
-<div id ="answer"></div>
+            <li>How many gallon of water do you daily drink?</li>
+            <p>
+                <input id="Q8" type="number">
+            </p>
 
-</div>
-   <!--Footer-->
+        </ol>
+        <button id="submit" class="btn btn-success">Submit Answer</button>
+
+        <div id="answer"></div>
+
+    </div>
+    <!--Footer-->
 
     <footer>
         <div class="container">
@@ -131,18 +141,17 @@
                 <div class="col-md-2 col-sm-6 paddingtop-bottom">
                     <h6 class="heading7">GENERAL LINKS</h6>
                     <ul class="footer-ul">
-                        <li><a href="#"> Home</a>
+                        <li><a href="index.html"> Home</a>
                         </li>
-                        <li><a href="#"> Take Our Quiz!</a>
+                        <li><a href="form.html"> Take Our Quiz!</a>
                         </li>
-                        <li><a href="#"> Testimonies</a>
-                        </li>
-                        <li><a href="#"> Frequently Ask Questions</a>
+                        <li><a href="Quotes.html"> Testimonies</a>
                         </li>
                     </ul>
-                    
-                   <!--Facebook-->
-                   <a type="button" class="btn-floating btn-small btn-fb"><i class="fa fa-facebook"></i></a>
+
+
+                    <!--Facebook-->
+                    <a type="button" class="btn-floating btn-small btn-fb"><i class="fa fa-facebook"></i></a>
 
                 </div>
             </div>
@@ -159,4 +168,5 @@
         </div>
     </div>
 </body>
+
 </html>

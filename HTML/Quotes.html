@@ -3,84 +3,59 @@
 <html lang="en-us">
 
 <head>
-<meta charset="utf-8">
-<title>Testimonials</title>
-<style type="text/css">
-#mainContent {
-	background-color: #6495ED;
-	
-	font-family: Courier New
-Lucida Console;
-	font-size: 15px;
-	font-weight: bold;
-	background-color: white;
-	border-radius: 4px;
-	padding: 10px;
-	text-align: center;
-}
-.buttonStyle {
-	border-radius: 10px;
-	border: thin solid #F0E020;
-	padding: 5px;
-	background-color: #F8F094;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	font-weight: bold;
-	color: #663300;
-	width: 75px;
-}
-
-.buttonStyle:hover {
-	border: thin solid #FFCC00;
-	background-color: #FCF9D6;
-	color: #996633;
-	cursor: pointer;
-}
-.buttonStyle:active {
-	border: thin solid #99CC00;
-	background-color: #F5FFD2;
-	color: #669900;
-	cursor: pointer;
-}
-
-#em{ 
-float: left ; 
-color: blue;
-} 
-#et{
-	float:left;
-	color: blue;
-	
-}
-
-#p3, #ex{
-    border-width: 3px;
-	background-color: #00FA9A;
-	
-}
-
-#p2, #et{
-    border-width: 3px;
-	background-color: #ff4d4d;
-	
-}
-#p1{
-    border-width: 1px;
-	background-color:#00FFFF;
-}
-
-#mainContent{
-	background: white;
-	
-}
-
-
-
-#ex{
-	float:left;
-	
-}
-
-</style>
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <title>Testimonials</title>
+    <style type="text/css">
+        #mainContent {
+            background-color: #6495ED;
+            font-family: Assistant;
+            font-size: 15px;
+            font-weight: bold;
+            background-color: white;
+            border-radius: 4px;
+            padding: 10px;
+            text-align: center;
+        }
+        .buttonStyle {
+            border-radius: 10px;
+            border: thin solid #F0E020;
+            padding: 5px;
+            background-color: #F8F094;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            color: #663300;
+            width: 75px;
+        }
+        .buttonStyle:hover {
+            border: thin solid #FFCC00;
+            background-color: #FCF9D6;
+            color: #996633;
+            cursor: pointer;
+        }
+        .buttonStyle:active {
+            border: thin solid #99CC00;
+            background-color: #F5FFD2;
+            color: #669900;
+            cursor: pointer;
+        }
+        .title {
+            padding-top: 15px;
+            margin-left: 200px;
+            float: left;
+        }
+        .main {
+            padding: 50px;
+            margin-right: 300px;
+            margin-left: 300px;
+        }
+        #first,
+        #Second,
+        #third {
+            border: 5px #3E78B2 solid;
+            margin: 30px;
+        }
+    </style>
 
 
 
@@ -101,10 +76,10 @@ color: blue;
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href=../CSS/index.css>
-    </head>
+</head>
 
 <body>
-	<div id="title">
+    <div id="title">
         <img class="logo" src="images/EGA_logo.png" width="50">
         <h3 class="EGA">Home Of E.G.A</h3>
     </div>
@@ -114,75 +89,74 @@ color: blue;
         <a class="menu-button current-page" href="Quotes.html">Testimonials</a>
     </div>
 
-<div id="mainContent">
-<p id="helloText"></p>
+    <div id="mainContent">
+        <p id="helloText"></p>
 
-<button id="clickButton" class="buttonStyle">click me</button>
 
-<p id= "p1"><span id="em"> Amirrock23@bugmenol</span> <br>
-I was exposed to smoking in my early teen years. As I turned 20 years old, I felt 50 as my face looked like someone put out a fire with a wet chain on it,I had bronchitis and shortage of breath. Thanks to the fountain of youth, I started smoking less and less, eating more cruciferous vegetable(Kale, broccoli, Brussels sprouts, etc...) and bringing a little more exercise in my daily life. I am now 50 years and amaizingly feel 20! I am loving the fountain of youth.</p>
+        <div id="first">
+            <p class="title"> Name : Amir Rock
+                <br> Age: 34</p>
 
-<p id="p2"><span id="et"> Jeff M. Moore </span> <br> 
-I am currently in my late 40's before I tried this product, I had Osteoorosis. My bones were very weak, I couldnt do anything because of the senstivity of my bones. Since I drank the product, I am more proactive in sport! and motivated to my goals thank you Fountain of Youth! </p>
-
-<p id= "p3"><span id="ex"> Lillie C. Ripley </span> <br>
-I am currently 84 years old, This product is really effective; I feel young again, just being able too walk up to the 6th floor and not getting tired is really a miracle. Most advertisements that involves with products like this are often fake! Heck I was very skeptical when I first heard about this product. Now I feel 20 years old and feel great! </p>
-</div>
-<script> 
-
-var myButton = document.getElementById("clickButton");
-var myText = document.getElementById("helloText");
-
-myButton.addEventListener('click', doSomething, false)
-
-function doSomething() {
-	alert("Your are eligibe")
-}
-</script>
-   
-   
-   <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6 footerleft ">
-                    <div class="logofooter">Home of E.G.A <img class="logo" src="images/EGA_logo.png" width="50">
-                    </div>
-                    <p>The purpose of our product is to aid people in feeling younger and better. We want people to confine in our product so that you use the fountain of Youth Stress Free. We also offer a 30 days Guarantee or your money back. </p>
-                    <p><i class="fa fa-map-pin"></i>111 8th Avenue , New York - 1011, NY</p>
-                    <p><i class="fa fa-phone"></i> Phone (New York) : +(718)-347-5117</p>
-                    <p><i class="fa fa-envelope"></i> E-mail : E.G.A @gmail.com</p>
-                </div>
-                <div class="col-md-2 col-sm-6 paddingtop-bottom">
-                    <h6 class="heading7">GENERAL LINKS</h6>
-                    <ul class="footer-ul">
-                        <li><a href="#"> Home</a>
-                        </li>
-                        <li><a href="#"> Take Our Quiz!</a>
-                        </li>
-                        <li><a href="#"> Testimonies</a>
-                        </li>
-                        <li><a href="#"> Frequently Ask Questions</a>
-                        </li>
-                    </ul>
-                    
-                   <!--Facebook-->
-                   <a type="button" class="btn-floating btn-small btn-fb"><i class="fa fa-facebook"></i></a>
-
-                </div>
-            </div>
-            <!--  </div>-->
-            <!--</div>-->
-    </footer>
-    <!--footer start from here-->
-
-    <div class="copyright">
-        <div class="container">
-            <div class="col-md-6">
-                <p>© 2117 - All Rights Reserved; Home of E.G.A </p>
-            </div>
+            <p class="main"> I was exposed to smoking in my early teen years. As I turned 20 years old, I felt 50 as my face looked like someone put out a fire with a wet chain on it,I had bronchitis and shortage of breath. Thanks to the fountain of youth, I started smoking less and less, eating more cruciferous vegetable(Kale, broccoli, Brussels sprouts, etc...) and bringing a little more exercise in my daily life. I am now 34 years old and amaizingly feel like a 19 years old ! I am loving the fountain of youth.</p>
         </div>
-    </div>
-	
+        <div id="Second">
+            <p class="title"> Name: Johhan Asmark
+                <br> Age: 47</p>
+
+            <p class="main">I am currently in my late 40's before I tried this product, I had Osteoorosis. My bones were very weak, I couldnt do anything because of the senstivity of my bones. Since I drank the product, I am more proactive in sport! and motivated to my goals thank you Fountain of Youth! </p>
+        </div>
+        <div id="third">
+            <p class="title"> Lillie C. Ripley
+
+                <br> Age: 84</p>
+            <p class="main">I am currently 84 years old, This product is really effective; I feel young again, just being able too walk up to the 6th floor and not getting tired is really a miracle. Most advertisements that involves with products like this are often fake! Heck I was very skeptical when I first heard about this product. Now I feel 20 years old and feel great! </p>
+            <div>
+            </div>
+            <script>
+            </script>
+
+
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 footerleft ">
+                            <div class="logofooter">Home of E.G.A <img class="logo" src="images/EGA_logo.png" width="50">
+                            </div>
+                            <p>The purpose of our product is to aid people in feeling younger and better. We want people to confine in our product so that you use the fountain of Youth Stress Free. We also offer a 30 days Guarantee or your money back. </p>
+                            <p><i class="fa fa-map-pin"></i>111 8th Avenue , New York - 1011, NY</p>
+                            <p><i class="fa fa-phone"></i> Phone (New York) : +(718)-347-5117</p>
+                            <p><i class="fa fa-envelope"></i> E-mail : E.G.A @gmail.com</p>
+                        </div>
+                        <div class="col-md-2 col-sm-6 paddingtop-bottom">
+                            <h6 class="heading7">GENERAL LINKS</h6>
+                            <ul class="footer-ul">
+                                <li><a href="index.html"> Home</a>
+                                </li>
+                                <li><a href="form.html"> Take Our Quiz!</a>
+                                </li>
+                                <li><a href="Quotes.html"> Testimonies</a>
+                                </li>
+                            </ul>
+
+
+                            <!--Facebook-->
+                            <a type="button" class="btn-floating btn-small btn-fb"><i class="fa fa-facebook"></i></a>
+
+                        </div>
+                    </div>
+                    <!--  </div>-->
+                    <!--</div>-->
+            </footer>
+            <!--footer start from here-->
+
+            <div class="copyright">
+                <div class="container">
+                    <div class="col-md-6">
+                        <p>© 2117 - All Rights Reserved; Home of E.G.A </p>
+                    </div>
+                </div>
+            </div>
+
 </body>
 
 </html>
