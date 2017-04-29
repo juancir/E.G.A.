@@ -1,0 +1,68 @@
+#title{
+    width: 300px;
+    height: 60px;
+    background-color: transparent;
+    margin: 0 auto 20px auto;
+    text-align:center; 
+    vertical-align: middle;
+}
+.logo{
+    display:inline-block;
+    margin-right:10px;
+    vertical-align: middle;
+}
+.EGA{
+    display:inline-block;
+}
+#nav-bar{
+   margin:10px 0px 20px 0px;
+    height:50px;
+    text-align:center;
+}
+
+#nav-bar a {
+    text-decoration:none;
+}
+.menu-button{
+    display:inline-block;
+    padding:20px;
+    margin:0 10px 0 10px;
+    color:#3E78B2;
+    transition:all 1s;
+    text-decoration:none;
+}
+
+.current-page,
+.menu-button:hover{
+    background-color:#3E78B2;
+    color:#DCD6F7;
+    transition:all 1s;
+}
+
+
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control.left {
+    background-image: none;
+}  
+
+.glyphicon-chevron-right { 
+   background-color: lightgrey;  
+   border-radius: 20px;
+   width: 30px;
+   height: 30px;
+} 
+.glyphicon-chevron-left { 
+   background-color: lightgrey;  
+   border-radius: 20px;
+   width: 30px;
+   height: 30px;
+} 
+
+footer { 
+    background-color: lightgrey;
+    
+} 
