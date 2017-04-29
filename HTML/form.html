@@ -3,11 +3,12 @@
 <html lang="en-us">
 
 <head>
-  <link rel="stylesheet" href="style.css">
-  <script src></script>
+  <link rel="stylesheet" href="../CSS/autodoctor.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="../JAVASCRIPT/autodoctor.js"></script>
 </head>
 <body>
-<h1>The automated doctor</h1>
+<h1>The Automated Doctor</h1>
 <ol>
 <li>What is your current age?
 <p><select id="Q1">
@@ -15,81 +16,77 @@
   <option value="teen">Teen (13 - 18)</option>
   <option value="youngadult">Young Adult (18 - 30)</option>
   <option value="adult">Adult (30 - 60)</option>
-  <option value="elderly">Elderly (60+ )</option>
+  <option value="eldgerly">Elderly (60+ )</option>
 </select></p>
 </li>
 <li>How much do you weigh?
 <p><select id="Q2">
-  <option value="volvo">Less than 120lb</option>
-  <option value="saab"></option>
-  <option value="mercedes">Mercedes</option>
-  <option value="audi">Audi</option>
+  <option value="lightest">Less than 120lb</option>
+  <option value="light">120lb - 180lb</option>
+  <option value="heavy">180lb - 270lb</option>
+  <option value="extra">270lb - 500lb</option>
+  <option value="massive">More than 500lb</option>
 </select></p>
 </li>
-<li>How would you evaluate your overall health?
+<li>How would you evaluate your overall health? Would you say you are:
 <p><select id="Q3">
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="mercedes">Mercedes</option>
-  <option value="audi">Audi</option>
+  <option value="good">In good physical health</option>
+  <option value="mild">Mildly physically impaired</option>
+  <option value="moderate">Moderately physically impaired</option>
+  <option value="severe">Severely physically impaired</option>
+  <option value="total">Totally physically impaired</option>
 </select></p>
 </li>
-<li>Would you say you are:
+<li>how often do you smoke?
 <p><select id="Q4">
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="mercedes">Mercedes</option>
-  <option value="audi">Audi</option>
+<option value="dont">I don't smoke</option>
+  <option value="once">Volvo</option>
+  <option value="every">Every Day </option>
+  <option value="hour">Every hour</option>
+  
 </select></p>
 </li>
-<li>fsgogsirfgfi
-<p><select id="Q5">
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="mercedes">Mercedes</option>
-  <option value="audi">Audi</option>
-</select></p>
+<li>Which excercises do you often do?
+<p>
+    <label>
+        <input type="checkbox" name="excercises" value="walk" />
+        Walk
+    </label>
+        <label>
+        <input type="checkbox" name="excercises" value="lift weights" />
+        Lift weights
+    </label>
+    <label>
+        <input type="checkbox" name="excercises" value="run" />
+        Run
+    </label>
+        <label>
+        <input type="checkbox" name="excercises" value="hike" />
+        Hike
+    </label>
+    <label>
+        <input type="checkbox" name="excercises" value="swim" />
+        Swim
+    </label>
+        <label>
+        <input type="checkbox" name="excercises" value="dance" />
+        Dance 
+    <label>
+        <input type="checkbox" name="excercises" value="other" />
+        Others
+    </label>
+     
+</p>
 </li>
-<li>fsgogsirfgfi
-<p><select id="Q6">
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="mercedes">Mercedes</option>
-  <option value="audi">Audi</option>
-</select></p>
-</li>
-<li>fsgogsirfgfi
-<p><select id="Q7">
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="mercedes">Mercedes</option>
-  <option value="audi">Audi</option>
-</select></p>
-</li>
-<li>fsgogsirfgfi
-<p><select id="Q8">
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="mercedes">Mercedes</option>
-  <option value="audi">Audi</option>
-</select></p>
-</li>
-<li>fsgogsirfgfi
-<p><select id="Q9">
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="mercedes">Mercedes</option>
-  <option value="audi">Audi</option>
-</select></p>
-</li>
-<li>fsgogsirfgfi
-<p><select id="Q10">
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="mercedes">Mercedes</option>
-  <option value="audi">Audi</option>
-</select></p>
-</li>
+<li>In a typical day how many snacks or meals do you eat?</li>
+<p><input id="Q7"></p>
+
+<li>In a typical day how many vegetables do you eat?</li>
+<p><input id="Q8"></p>
+
+<li>How many gallon of water do you daily drink?</li>
+<p><input id="Q9"></p>
+
 </ol>
 <button id="submit">Submit Answer</button>
 
